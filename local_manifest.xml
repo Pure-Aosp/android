@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+      <remote name="github"
+        fetch="http://github.com/"/>
+
+<!-- Maxwen's repo -->
+
+     <remove-project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" />
+     <project name="maxwen/bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="jb-mr1" />
+
+<!-- my repo -->
+
+     <project name="Lloir/mirageandroid_device_enrc2b" path="device/htc/enrc2b" remote="github" revision="422"/>
+
+<!-- Cyanogenmod repo's -->
+
+     <remove-project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
+     <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy/" remote="github" revision="cm-10.1"/>
+
+     <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
+     <project name="CyanogenMod/android_hardware_libhardware.git" path="hardware/libhardware/" remote="github" revision="cm-10.1"/>
+
+<!-- Gnurou's repo's -->
+
+     <project name="Gnurou/busybox-android" path="busybox-android" remote="github" revision="master"/>
+
+<!-- adrian's repo's -->
+
+     <remove-project name="platform/frameworks/av" path="frameworks/av" />
+     <project name="adrian-bl-hox-jb/android_frameworks_av" path="frameworks/av" remote="github" revision="jb42" />
+
+     <remove-project name="platform/frameworks/base" path="frameworks/base"  />
+     <project name="adrian-bl-hox-jb/android_frameworks_base" path="frameworks/base" remote="github" revision="jb42" />
+
+     <remove-project name="platform/frameworks/native" path="frameworks/native" />
+     <project name="adrian-bl-hox-jb/android_frameworks_native" path="frameworks/native" remote="github" revision="jb42" />
+
+<!-- Koush's repo's -->
+
+     <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+     <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+
+<!-- cornedor's repo's -->
+
+     <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
+
+  </manifest>
