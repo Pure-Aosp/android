@@ -12,6 +12,7 @@
 <!-- my repo -->
 
      <project name="Lloir/mirageandroid_device_enrc2b" path="device/htc/enrc2b" remote="github" revision="422"/>
+     <project name="Lloir/manifests" path=".repo" remote="github" revision="master"/>
 
 <!-- Cyanogenmod repo's -->
 
