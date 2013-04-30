@@ -44,5 +44,6 @@
 <!-- cornedor's repo's -->
 
      <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
+     <project name="cornedor/performance-tool" path="packages/apps/performance-tool" remote="github" revision="master" />
 
-  </manifest>
+    </manifest>
