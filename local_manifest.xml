@@ -31,8 +31,9 @@
      <remove-project name="platform/frameworks/av" path="frameworks/av" />
      <project name="adrian-bl-hox-jb/android_frameworks_av" path="frameworks/av" remote="github" revision="jb42" />
 
-     <remove-project name="platform/frameworks/base" path="frameworks/base"  />
-     <project name="adrian-bl-hox-jb/android_frameworks_base" path="frameworks/base" remote="github" revision="jb42" />
+<!-- Don't use BASE as it breaks RIL -->
+     <!--remove-project name="platform/frameworks/base" path="frameworks/base"  /-->
+     <!--project name="adrian-bl-hox-jb/android_frameworks_base" path="frameworks/base" remote="github" revision="jb42" /-->
 
      <remove-project name="platform/frameworks/native" path="frameworks/native" />
      <project name="adrian-bl-hox-jb/android_frameworks_native" path="frameworks/native" remote="github" revision="jb42" />
