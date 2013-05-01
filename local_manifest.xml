@@ -22,9 +22,7 @@
      <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
      <project name="CyanogenMod/android_hardware_libhardware.git" path="hardware/libhardware/" remote="github" revision="cm-10.1"/>
 
-<!-- Gnurou's repo's -->
-
-     <project name="Gnurou/busybox-android" path="busybox-android" remote="github" revision="master"/>
+     <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.1"/>
 
 <!-- adrian's repo's -->
 
