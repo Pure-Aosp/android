@@ -14,7 +14,7 @@
      <project name="Lloir/mirageandroid_device_enrc2b" path="device/htc/enrc2b" remote="github" revision="422"/>
      <project name="Lloir/manifests" path=".repo" remote="github" revision="master"/>
      <remove-project name="platform/frameworks/base" path="frameworks/base" />
-     <project name="miragerom/android_frameworks_base" path="frameworks/base" remote="github" revision="jellybean"/>
+     <project name="Lloir/miragebase" path="frameworks/base" remote="github" revision="master"/>
 
 <!-- Cyanogenmod repo's -->
 
