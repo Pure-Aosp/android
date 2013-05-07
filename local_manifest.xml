@@ -13,6 +13,8 @@
 
      <project name="Lloir/mirageandroid_device_enrc2b" path="device/htc/enrc2b" remote="github" revision="422"/>
      <project name="Lloir/manifests" path=".repo" remote="github" revision="master"/>
+     <remove-project name="platform/frameworks/base" path="frameworks/base" />
+     <project name="miragerom/android_frameworks_base" path="frameworks/base" remote="github" revision="jellybean"/>
 
 <!-- Cyanogenmod repo's -->
 
@@ -30,9 +32,7 @@
      <project name="adrian-bl-hox-jb/android_frameworks_av" path="frameworks/av" remote="github" revision="jb42" />
 
 <!-- Don't use BASE as it breaks RIL -->
-     <!--remove-project name="platform/frameworks/base" path="frameworks/base"  /-->
-     <!--project name="adrian-bl-hox-jb/android_frameworks_base" path="frameworks/base" remote="github" revision="jb42" /-->
-
+    
      <remove-project name="platform/frameworks/native" path="frameworks/native" />
      <project name="adrian-bl-hox-jb/android_frameworks_native" path="frameworks/native" remote="github" revision="jb42" />
 
