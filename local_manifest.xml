@@ -46,4 +46,9 @@
      <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
      <project name="cornedor/performance-tool" path="packages/apps/performance-tool" remote="github" revision="master" />
 
+<!-- Tom's repo -->
+
+     <remove-project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" />
+     <project name="tombriden/pa_android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="jellybean" />
+
     </manifest>
