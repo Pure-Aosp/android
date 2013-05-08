@@ -26,17 +26,26 @@
      <remove-project name="platform/frameworks/base" path="frameworks/base" / >
      <project name="Lloir/basee" path="frameworks/base" remote="bitbucket" revision="master"/>
 
-     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" / >
-     <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
+     <remove-project name="platform/frameworks/native" path="frameworks/native" />
+     <project name="AOSPXplus/android_frameworks_native" path="frameworks/native" remote="github" revision="jb-mr1.1-release" />
 
-     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" / >
-     <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
+     <remove-project name="platform/frameworks/av" path="frameworks/av" />
+     <project name="AOSPXplus/android_frameworks_av" path="frameworks/av" remote="github" revision="jb-mr1.1-release" />
 
      <remove-project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
      <project name="AOSPXplus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="jb-mr1.1-release" />
 
      <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
      <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="jb-mr1.1-release" />
+
+     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" / >
+     <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
+
+     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" / >
+     <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
+
+     <remove-project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
+     <project name="AOSPXplus/android_packages_apps_Camera" path="packages/apps/Camera" remote="github" revision="jb-mr1.1-release" />
 
 <!-- Cyanogenmod repo's -->
 
