@@ -9,12 +9,11 @@
      <remove-project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" />
      <project name="maxwen/bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="jb-mr1" />
 
-<!-- AOSPX+ repo -->
+<!-- AOSPX+ repo's -->
 
-     <project name="Lloir/mirageandroid_device_enrc2b" path="device/htc/enrc2b" remote="github" revision="422"/>
-     <project name="Lloir/manifests" path=".repo" remote="github" revision="master"/>
+     <project name="AOSPXplus/device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="master"/>
 
-     <remove-project name="platform/frameworks/base" path="frameworks/base" / >
+     <remove-project name="platform/frameworks/base" path="frameworks/base" />
      <project name="AOSPXplus/android_frameworks_base" path="frameworks/base" remote="github" revision="jb-mr1.1-release"/>
 
      <remove-project name="platform/frameworks/native" path="frameworks/native" />
