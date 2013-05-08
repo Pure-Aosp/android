@@ -4,9 +4,6 @@
       <remote name="github"
         fetch="http://github.com/"/>
 
-      <remote name="bitbucket"
-        fetch="https://bitbucket.org/"/>
-
 <!-- Maxwen's repo -->
 
      <remove-project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" />
@@ -18,7 +15,7 @@
      <project name="Lloir/manifests" path=".repo" remote="github" revision="master"/>
 
      <remove-project name="platform/frameworks/base" path="frameworks/base" / >
-     <project name="Lloir/basee" path="frameworks/base" remote="bitbucket" revision="master"/>
+     <project name="AOSPXplus/android_frameworks_base" path="frameworks/base" remote="github" revision="jb-mr1.1-release"/>
 
      <remove-project name="platform/frameworks/native" path="frameworks/native" />
      <project name="AOSPXplus/android_frameworks_native" path="frameworks/native" remote="github" revision="jb-mr1.1-release" />
