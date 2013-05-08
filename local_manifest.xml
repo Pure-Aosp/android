@@ -37,8 +37,6 @@
      <remove-project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
      <project name="AOSPXplus/android_packages_apps_Camera" path="packages/apps/Camera" remote="github" revision="jb-mr1.1-release" />
 
-     <remove-project name="platform/system/extras/su" path="system/extras/su" />
-     
 <!-- Cyanogenmod repo's -->
 
      <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.1"/>
