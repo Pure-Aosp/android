@@ -29,10 +29,7 @@
      <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
      <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="jb-mr1.1-release" />
 
-     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" / >
-     <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
-
-     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" / >
+     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" />
      <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
 
      <remove-project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
