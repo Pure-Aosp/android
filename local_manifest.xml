@@ -4,37 +4,43 @@
       <remote name="github"
         fetch="http://github.com/"/>
 
+      <remote name="bitbucket"
+        fetch="https://bitbucket.org/"/>
+
 <!-- Maxwen's repo -->
 
      <remove-project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" />
      <project name="maxwen/bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="jb-mr1" />
 
-<!-- my repo -->
+     <remove-project name="platform/frameworks/av" path="frameworks/av" />
+     <project name="maxwen/frameworks_av" path="frameworks/av" remote="github" revision="jb-mr1" />
+
+     <remove-project name="platform/frameworks/native" path="frameworks/native" />
+     <project name="maxwen/frameworks_native" path="frameworks/native" remote="github" revision="jb-mr1" />
+
+<!-- AOSPX+ repo -->
 
      <project name="Lloir/mirageandroid_device_enrc2b" path="device/htc/enrc2b" remote="github" revision="422"/>
      <project name="Lloir/manifests" path=".repo" remote="github" revision="master"/>
-     <remove-project name="platform/frameworks/base" path="frameworks/base" />
-     <project name="Lloir/miragebase" path="frameworks/base" remote="github" revision="master"/>
+
+     <remove-project name="platform/frameworks/base" path="frameworks/base" / >
+     <project name="Lloir/basee" path="frameworks/base" remote="bitbucket" revision="master"/>
+
+     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" / >
+     <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
+
+     <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" / >
+     <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
+
+     <remove-project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
+     <project name="AOSPXplus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="jb-mr1.1-release" />
+
+     <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
+     <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="jb-mr1.1-release" />
 
 <!-- Cyanogenmod repo's -->
 
-     <remove-project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
-     <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy/" remote="github" revision="cm-10.1"/>
-
-     <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
-     <project name="CyanogenMod/android_hardware_libhardware.git" path="hardware/libhardware/" remote="github" revision="cm-10.1"/>
-
      <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.1"/>
-
-<!-- adrian's repo's -->
-
-     <remove-project name="platform/frameworks/av" path="frameworks/av" />
-     <project name="adrian-bl-hox-jb/android_frameworks_av" path="frameworks/av" remote="github" revision="jb42" />
-
-<!-- Don't use BASE as it breaks RIL -->
-    
-     <remove-project name="platform/frameworks/native" path="frameworks/native" />
-     <project name="adrian-bl-hox-jb/android_frameworks_native" path="frameworks/native" remote="github" revision="jb42" />
 
 <!-- Koush's repo's -->
 
@@ -45,10 +51,5 @@
 
      <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
      <project name="cornedor/performance-tool" path="packages/apps/performance-tool" remote="github" revision="master" />
-
-<!-- Tom's repo -->
-
-     <remove-project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" />
-     <project name="tombriden/pa_android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="jellybean" />
 
     </manifest>
