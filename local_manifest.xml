@@ -28,6 +28,9 @@
      <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
      <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="jb-mr1.1-release" />
 
+     <remove-project name="platform/system/core" path="system/core" />
+     <project name="AOSPXplus/android_system_core" path="system/core" remote="github" revision="jb-mr1.1-release" />
+
      <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" />
      <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
 
