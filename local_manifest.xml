@@ -58,5 +58,5 @@
 
     <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-10.1" />
     <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="cm-10.1" />
-    <project name="CyanogenMod/android_packages_apps_Torch" rpath="packages/apps/Torch" emote="github" revision="cm-10.1" />
+    <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-10.1" />
   </manifest>
