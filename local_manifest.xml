@@ -22,6 +22,9 @@
      <remove-project name="platform/frameworks/av" path="frameworks/av" />
      <project name="AOSPXplus/android_frameworks_av" path="frameworks/av" remote="github" revision="jb-mr1.1-release" />
 
+     <remove-project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" />
+     <project name="AOSPXplus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="jb-mr1.1-release" />
+
      <remove-project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
      <project name="AOSPXplus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="jb-mr1.1-release" />
 
