@@ -39,6 +39,9 @@
 
      <remove-project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
      <project name="AOSPXplus/android_packages_apps_Camera" path="packages/apps/Camera" remote="github" revision="jb-mr1.1-release" />
+     
+     <remove-project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
+     <project name="AOSPXplus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="jb-mr1.1-release" />
 
 <!-- Cyanogenmod repo's -->
 
