@@ -4,14 +4,12 @@
       <remote name="github"
         fetch="http://github.com/"/>
 
-<!-- Maxwen's repo -->
-
-     <remove-project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" />
-     <project name="maxwen/bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="jb-mr1" />
 
 <!-- AOSPX+ repo's -->
 
-     <project name="AOSPXplus/device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="master"/>
+     <project name="HoxPlusCMOfficial/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="cm-10.1" />
+     <project name="HoxPlusCMOfficial/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="master" />
+     <project name="HoxPlusCMOfficial/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
 
      <remove-project name="platform/frameworks/base" path="frameworks/base" />
      <project name="AOSPXplus/android_frameworks_base" path="frameworks/base" remote="github" revision="jb-mr1.1-release"/>
@@ -37,9 +35,6 @@
      <remove-project name="platform/packages/apps/Settings" path="packages/apps/Settings" />
      <project name="AOSPXplus/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb-mr1.1-release"/>
 
-     <remove-project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
-     <project name="AOSPXplus/android_packages_apps_Camera" path="packages/apps/Camera" remote="github" revision="jb-mr1.1-release" />
-     
      <remove-project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
      <project name="AOSPXplus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="jb-mr1.1-release" />
 
@@ -56,10 +51,11 @@
 
      <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
      <project name="cornedor/performance-tool" path="packages/apps/performance-tool" remote="github" revision="master" />
-     
+
 <!-- others -->
 
     <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-10.1" />
     <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="cm-10.1" />
     <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-10.1" />
-  </manifest>
+  
+</manifest>
