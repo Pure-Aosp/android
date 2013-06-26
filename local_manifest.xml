@@ -7,7 +7,7 @@
 
 <!-- AOSPX+ repo's -->
 
-     <project name="AOSPXplus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="cm-10.1" />
+     <project name="AOSPXplus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="aosp" />
      <project name="HoxPlusCMOfficial/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="master" />
      <project name="HoxPlusCMOfficial/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
 
