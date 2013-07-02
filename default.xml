@@ -381,6 +381,8 @@
      <project name="AOSPXplus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" />
 
      <project name="AOSPXplus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" />
+     
+     <project name="AOSPXplus/android_frameworks_base" path="frameworks/base" remote="github" />
 
      <project name="AOSPXplus/android_frameworks_native" path="frameworks/native" remote="github" />
 
