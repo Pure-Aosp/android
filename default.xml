@@ -11,8 +11,7 @@
   <remote name="github"
         fetch="http://github.com/"/>
         
-  <default revision="refs/heads/master"
-           remote="github"
+  <default remote="github"
            sync-c="true"
            sync-j="4" />
 
