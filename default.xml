@@ -10,12 +10,8 @@
 
   <remote name="github"
         fetch="http://github.com/"/>
-        
-  <default remote="github"
-           sync-c="true"
-           sync-j="4" />
 
-  <project path="build" name="AOSPXplus/android_build">
+  <project path="build" name="AOSPXplus/android_build" revision="refs/tags/master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -386,30 +382,30 @@
 
 <!-- AOSPX+ repo's -->
 
-     <project name="AOSPXplus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="master" />
+     <project name="AOSPXplus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="refs/tags/master" />
 
-     <project name="HoxPlusCMOfficial/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="master" />
+     <project name="HoxPlusCMOfficial/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="refs/tags/master" />
 
-     <project name="HoxPlusCMOfficial/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
+     <project name="HoxPlusCMOfficial/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="refs/tags/master" />
 
-     <project name="AOSPXplus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" revision="testing" />
+     <project name="AOSPXplus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" revision="refs/tags/testing" />
 
-     <project name="AOSPXplus/android_frameworks_native" path="frameworks/native" remote="github" revision="master" />
+     <project name="AOSPXplus/android_frameworks_native" path="frameworks/native" remote="github" revision="refs/tags/master" />
 
-     <project name="AOSPXplus/android_frameworks_av" path="frameworks/av" remote="github" revision="master" />
+     <project name="AOSPXplus/android_frameworks_av" path="frameworks/av" remote="github" revision="refs/tags/master" />
 
-     <project name="AOSPXplus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="master" />
+     <project name="AOSPXplus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="refs/tags/master" />
 
-     <project name="AOSPXplus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="master" />
+     <project name="AOSPXplus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="refs/tags/master" />
 
-     <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="master" />
+     <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="refs/tags/master" />
 
-     <project name="AOSPXplus/android_system_core" path="system/core" remote="github" revision="master" />
+     <project name="AOSPXplus/android_system_core" path="system/core" remote="github" revision="refs/tags/master" />
 
-     <project name="AOSPXplus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="master" />
+     <project name="AOSPXplus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="refs/tags/master" />
 
 <!-- Koush's repo's -->
 
-     <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
-     <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+     <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="refs/tags/master" />
+     <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="refs/tags/master" />
 </manifest>
