@@ -10,6 +10,11 @@
 
   <remote name="github"
         fetch="http://github.com/"/>
+        
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
 
   <project path="build" name="AOSPXplus/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
