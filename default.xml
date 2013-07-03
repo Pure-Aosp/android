@@ -373,7 +373,6 @@
 <!-- AOSPX+ repo's -->
 
      <project name="AospPlus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" />
-     <project name="AospPlus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" />
      <project name="AospPlus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" />
      <project name="AospPlus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" />
      <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" />
