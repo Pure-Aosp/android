@@ -384,9 +384,10 @@
      <project name="AOSPXplus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" />
      <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
      <project name="AOSPXplus/android_system_core" path="system/core" remote="github" />
-     <project name="AOSPXplus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" />
      <project name="AOSPXplus/android_system_extras" path="system/extras" remote="github" />
-
+     <project name="AOSPXplus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" />
+     <project name="AOSPXplus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
+     
 <!-- Koush's repo's -->
 
      <project name="koush/Superuser" path="external/koush/Superuser" remote="github" />
