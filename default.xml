@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="AOSPXplus/android_build" >
+  <project path="build" name="AospPlus/android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -372,20 +372,20 @@
 
 <!-- AOSPX+ repo's -->
 
-     <project name="AOSPXplus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" />
-     <project name="AOSPXplus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" />
-     <project name="AOSPXplus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" />
-     <project name="AOSPXplus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" />
-     <project name="AOSPXplus/android_frameworks_base" path="frameworks/base" remote="github" />
-     <project name="AOSPXplus/android_frameworks_native" path="frameworks/native" remote="github" />
-     <project name="AOSPXplus/android_frameworks_av" path="frameworks/av" remote="github" />
-     <project name="AOSPXplus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
-     <project name="AOSPXplus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" />
-     <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
-     <project name="AOSPXplus/android_system_core" path="system/core" remote="github" />
-     <project name="AOSPXplus/android_system_extras" path="system/extras" remote="github" />
-     <project name="AOSPXplus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" />
-     <project name="AOSPXplus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
+     <project name="AospPlus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" />
+     <project name="AospPlus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" />
+     <project name="AospPlus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" />
+     <project name="AospPlus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" />
+     <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" />
+     <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" />
+     <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" />
+     <project name="AospPlus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
+     <project name="AospPlus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" />
+     <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
+     <project name="AospPlus/android_system_core" path="system/core" remote="github" />
+     <project name="AospPlus/android_system_extras" path="system/extras" remote="github" />
+     <project name="AospPlus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" />
+     <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
      
 <!-- Koush's repo's -->
 
