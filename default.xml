@@ -356,7 +356,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="master" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="master" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" remote="aosp" revision="master" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" revision="master" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" revision="master" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" revision="master" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" revision="master" />
@@ -375,28 +374,19 @@
 <!-- AOSPX+ repo's -->
 
      <project name="AOSPXplus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" />
-
      <project name="AOSPXplus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" />
-
      <project name="AOSPXplus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" />
-
      <project name="AOSPXplus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" />
-     
      <project name="AOSPXplus/android_frameworks_base" path="frameworks/base" remote="github" />
-
      <project name="AOSPXplus/android_frameworks_native" path="frameworks/native" remote="github" />
-
      <project name="AOSPXplus/android_frameworks_av" path="frameworks/av" remote="github" />
-
      <project name="AOSPXplus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
-
      <project name="AOSPXplus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" />
-
      <project name="AOSPXplus/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
-
      <project name="AOSPXplus/android_system_core" path="system/core" remote="github" />
-
      <project name="AOSPXplus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" />
+   
+     <project path="AOSPXplus/android_system_extras" name="system/extras" remote="github" />
 
 <!-- Koush's repo's -->
 
