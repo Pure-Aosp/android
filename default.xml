@@ -11,7 +11,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
   
-  <project path="build" name="AospPlus/android_build" remote="github" >
+  <project path="build" name="platform/build" remote="aosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
