@@ -33,7 +33,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
@@ -340,6 +339,7 @@
 
   <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" />
   <project name="AospPlus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" />
+  <project name="AospPlus/android_device_lge_mako" path="device/lge/mako" remote="github" />
   <project name="AospPlus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" />
   <project name="AospPlus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" revision="master" />
   <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" />
