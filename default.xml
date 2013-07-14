@@ -252,6 +252,7 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" remote="aosp" revision="master" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" revision="master" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="master" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" remote="aosp" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="master" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="master" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="aosp" revision="master" />
@@ -382,7 +383,6 @@
      <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
      <project name="AospPlus/android_system_core" path="system/core" remote="github" />
      <project name="AospPlus/android_system_extras" path="system/extras" remote="github" />
-     <project name="AospPlus/android_packages_apps_Camera" path="packages/apps/Camera" remote="github" />
      <project name="AospPlus/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" />
      <project name="AospPlus/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
      
