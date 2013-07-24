@@ -374,7 +374,7 @@
      <project name="AospPlus/android_vendor_ax" path="vendor/ax" remote="github" />
      <project name="AospPlus/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" />
      <project name="AospPlus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" />
-     <project name="AospPlus/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" />
+     <project name="Lloir/enrc2b-kernel-Lenny" path="kernel/htc/enrc2b" remote="github" revision="wip" />
      <project name="AospPlus/android_frameworks_base" path="frameworks/base" remote="github" />
      <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" />
      <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" />
