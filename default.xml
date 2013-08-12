@@ -362,7 +362,7 @@
 
   <project name="Pure-Aosp/android_vendor_pap" path="vendor/ax" remote="github" revision="4.3" />
   <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="4.3" />
-  <project name="Pure-Aosp/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="4.3" />
+  <project name="AospPlus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="master" />
   <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="4.3" />
   <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.3" />
