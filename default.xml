@@ -11,7 +11,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
   
-  <project path="build" name="platform/build" >
+  <project path="android_build" name="platform/build" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -367,8 +367,8 @@
   <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="aosp-plus_4.3" />
-  <project name="Pure-Aosp/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="4.3" />
-  <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="4.3" />
+  <project name="AospPlus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="aosp-plus_4.3" />
+  <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.3" />
 
 <!-- cornedor's repo's -->
