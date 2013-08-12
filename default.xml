@@ -225,6 +225,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
@@ -368,7 +369,6 @@
   <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.3" />
 
 <!-- cornedor's repo's -->
