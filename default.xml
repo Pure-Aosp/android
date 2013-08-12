@@ -365,14 +365,13 @@
   <project name="Pure-Aosp/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="4.3" />
   <project name="lloir/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="wip" />
   <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="4.3" />
-  <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="4.3" />
-  <project name="Pure-Aosp/android_frameworks_av" path="frameworks/av" remote="github" revision="4.3" />
+  <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.3" />
+  <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-plus_4.3" />
   <project name="Pure-Aosp/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="4.3" />
   <project name="Pure-Aosp/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="4.3" />
   <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="4.3" />
   <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="4.3" />
-  <project name="Pure-Aosp/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="4.3" />
-    
+
 <!-- cornedor's repo's -->
 
   <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
