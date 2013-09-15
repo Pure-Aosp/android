@@ -368,13 +368,15 @@
   
 <!-- AX Repo's -->
 
- <project name="AospPlus/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="aosp-plus_4.3" />
  <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.3" />
  <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-plus_4.3" />
  <project name="AospPlus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="aosp-plus_4.3" />
  <project name="AospPlus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="aosp-plus_4.3" />
  <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.3" />
  <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.3" />
+
+<!-- My Repo -->
+  <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2" />
 
 <!-- cornedor's repo's -->
 
