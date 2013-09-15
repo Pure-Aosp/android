@@ -381,7 +381,7 @@
   
 <!-- CM Repo -->
 
-  <project name="Cyanogenmod/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="cm-10.2" />
+  <project name="cyanogenmod/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="cm-10.2" />
 
 
 <!-- cornedor's repo's -->
