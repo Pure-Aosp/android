@@ -378,7 +378,7 @@
 
 <!-- My Repo -->
 
-  <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2" />
+  <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2_enrc2b-update" />
   
 
 <!-- cornedor's repo's -->
