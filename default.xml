@@ -389,10 +389,10 @@
   
 <!-- CM Repo --->
 
-  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.2"/>
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.2" />
   
-  <!-- Koush's repo -->
+<!-- Koush's repo -->
 
-  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+ <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
 
 </manifest>
