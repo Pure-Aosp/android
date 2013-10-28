@@ -386,7 +386,7 @@
 
  <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
   
-<!-- CM Repo --->
+<!-- CM Repo -->
 
  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.2" />
   
