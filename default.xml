@@ -376,6 +376,7 @@
  <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.3" />
  <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.3" />
  <project name="AospPlus/android_external_icu4c" path="external/icu4c" remote="github" revision="aosp-plus_4.3" />
+ <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_4.3" />
 
 <!-- My Repo -->
 
@@ -385,5 +386,13 @@
 <!-- cornedor's repo's -->
 
   <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
+  
+<!-- CM Repo --->
+
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.2"/>
+  
+  <!-- Koush's repo -->
+
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
 
 </manifest>
