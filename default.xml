@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="jb-mr2.0-release"
+  <default revision="kitkat-release"
            remote="aosp"
            sync-j="4" />
 
@@ -368,15 +368,14 @@
     
 <!-- AX Repo's -->
 
- <project name="AospPlus/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="aosp-plus_4.3" />
- <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.3" />
- <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-plus_4.3" />
- <project name="AospPlus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="aosp-plus_4.3" />
- <project name="AospPlus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="aosp-plus_4.3" />
- <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.3" />
- <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.3" />
- <project name="AospPlus/android_external_icu4c" path="external/icu4c" remote="github" revision="aosp-plus_4.3" />
- <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_4.3" />
+ <project name="AospPlus/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="aosp-plus_4.4" />
+ <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.4" />
+ <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-plus_4.4" />
+ <project name="AospPlus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="aosp-plus_4.4" />
+ <project name="AospPlus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="aosp-plus_4.4" />
+ <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.4" />
+ <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.4" />
+ <project name="AospPlus/android_external_icu4c" path="external/icu4c" remote="github" revision="aosp-plus_4.4" />
 
 <!-- My Repo -->
 
@@ -390,8 +389,4 @@
 
  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.2" />
   
-<!-- Koush's repo -->
-
- <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
-
 </manifest>
