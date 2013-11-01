@@ -7,6 +7,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote name="github"
+          fetch="git://github.com/" />
+
 <project path="build" name="Pure-Aosp/android_build" remote="github" revision="4.4">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
