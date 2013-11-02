@@ -2,10 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com/" />
   <default revision="kitkat-release"
            remote="aosp"
            sync-j="4" />
+
 
   <remote name="github"
           fetch="git://github.com/" />
