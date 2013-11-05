@@ -225,7 +225,6 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -414,7 +413,7 @@
 
   <project name="Pure-Aosp/android_vendor_pap" path="vendor/pap" remote="github" revision="4.4" />
   <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="4.4" />
-  <!--project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="4.4" /-->
+  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="kitkat" />
   <project name="Pure-Aosp/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="4.4" />
     
 <!-- AX Repo's -->
