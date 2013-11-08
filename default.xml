@@ -376,7 +376,6 @@
   <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.3" />
   <project name="AospPlus/android_external_icu4c" path="external/icu4c" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/Superuser" path="external/koush/Superuser" remote="github" revision="aosp-plus_4.3" />
 
 <!-- My Repo -->
 
