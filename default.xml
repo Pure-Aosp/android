@@ -429,6 +429,6 @@
   
 <!-- CM Repo -->
 
- <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.2" />
+ <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-11.0" />
 
 </manifest>
