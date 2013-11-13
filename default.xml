@@ -361,29 +361,29 @@
 
   <!-- PAP repo's -->
 
-  <project name="Pure-Aosp/android_vendor_pap" path="vendor/pap" remote="github" revision="4.3" />
-  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="4.3" />
-  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="4.3" />
-  <project name="Pure-Aosp/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="4.3" />
-    
-<!-- AX Repo's -->
+ <project name="Pure-Aosp/android_vendor_pap" path="vendor/pap" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_device_htc_endeavoru" path="device/htc/endeavoru" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_frameworks_av" path="frameworks/av" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_external_icu4c" path="external/icu4c" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="4.3" />
+  
+<!-- cornedor's repo's -->
 
-  <project name="AospPlus/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/android_frameworks_native" path="frameworks/native" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/android_system_core" path="system/core" remote="github" revision="aosp-plus_4.3" />
-  <project name="AospPlus/android_external_icu4c" path="external/icu4c" remote="github" revision="aosp-plus_4.3" />
-
-<!-- My Repo -->
-
-  <project name="Lloir/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2" />
- 
+ <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
+  
 <!-- CM Repo -->
 
-  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.2" />
+ <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-10.2" />
 
 
 </manifest>
