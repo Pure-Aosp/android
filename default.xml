@@ -364,9 +364,11 @@
  <project name="Pure-Aosp/android_vendor_pap" path="vendor/pap" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_device_htc_endeavoru" path="device/htc/endeavoru" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_device_htc_evitareul" path="device/htc/evitareul" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_kernel_htc_evitareul" path="kernel/htc/evitareul" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_frameworks_av" path="frameworks/av" remote="github" revision="4.3" />
@@ -376,7 +378,8 @@
  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_external_icu4c" path="external/icu4c" remote="github" revision="4.3" />
  <project name="Pure-Aosp/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="4.3" />
-  
+ <project name="Pure-Aosp/proprietary_vendor_evitareul" path="vendor/htc/evitareul" remote="github" revision="4.3" />
+
 <!-- cornedor's repo's -->
 
  <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
