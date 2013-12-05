@@ -377,8 +377,8 @@
  <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="4.3" />
  <project name="Pure-Aosp/android_external_icu4c" path="external/icu4c" remote="github" revision="4.3" />
- <project name="Pure-Aosp/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="4.3" />
- <project name="Pure-Aosp/proprietary_vendor_evitareul" path="vendor/htc/evitareul" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="4.3" />
+ <project name="Pure-Aosp/android_proprietary_vendor_evitareul" path="vendor/htc/evitareul" remote="github" revision="4.3" />
 
 <!-- cornedor's repo's -->
 
