@@ -423,7 +423,7 @@
  <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_external_icu4c" path="external/icu4c" remote="github" revision="4.4" />
- <project name="Pure-Aosp/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="4.4" />
+ <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2" />
   
 <!-- cornedor's repo's -->
 
