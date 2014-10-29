@@ -253,23 +253,7 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -342,12 +326,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
-  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
@@ -411,10 +389,8 @@
 
  <project name="Pure-Aosp/android_vendor_pap" path="vendor/pap" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="4.4" />
- <project name="Pure-Aosp/android_device_htc_endeavoru" path="device/htc/endeavoru" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="4.4" />
- <project name="Lloir/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="cm-10.2" />
- <project name="Pure-Aosp/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="github" revision="4.4" />
+ <project name="Lloir/android_kernel_htc_enrc2b-omni" path="kernel/htc/enrc2b" remote="github" revision="android-4.4" />
  <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_frameworks_av" path="frameworks/av" remote="github" revision="4.4" />
@@ -423,11 +399,7 @@
  <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_external_icu4c" path="external/icu4c" remote="github" revision="4.4" />
- <project name="HoxPlusCMOfficial/proprietary_vendor_htc" path="vendor/htc/" remote="github" revision="cm-10.2" />
-  
-<!-- cornedor's repo's -->
-
- <project name="cornedor/share-logs" path="packages/apps/ShareLogs" remote="github" revision="master" />
+ <project name="Lloir/vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
   
 <!-- CM Repo -->
 
