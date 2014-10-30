@@ -395,15 +395,13 @@
  <project name="Pure-Aosp/android_libcore" path="libcore" remote="github" revision="4.4" />
  <project name="Lloir/vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
 
-<!-- CM Repo -->
-
- <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-11.0" />
-
 <!--- TWRP --->
 
 <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-4.4" />
 
 <!--- OMNI Repo --->
+
  <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="4.4" />
+ <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-4.4" />
 
 </manifest>
