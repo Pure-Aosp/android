@@ -384,8 +384,6 @@
  <project name="Lloir/android_kernel_htc_enrc2b-omni" path="kernel/htc/enrc2b" remote="github" revision="android-4.4" />
  <project name="omnirom/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="android-4.4" />
  <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="4.4" />
- <!---Disable my one for now until I fix it properly -->
- <!--project name="Pure-Aosp/android_frameworks_av" path="frameworks/av" remote="github" revision="4.4" /-->
  <project name="Pure-Aosp/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="4.4" />
