@@ -393,7 +393,7 @@
  <project name="Pure-Aosp/android_external_icu4c" path="external/icu4c" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_libcore" path="libcore" remote="github" revision="4.4" />
  <project name="Lloir/vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
- <project name="Pure-Aosp/android_packages_apps_Gallery2" name="packages/apps/Gallery2" remote="github" revision="4.4" />
+ <project name="Pure-Aosp/android_packages_apps_Gallery2" remote="packages/apps/Gallery2" remote="github" revision="4.4" />
 
 <!--- TWRP --->
 
