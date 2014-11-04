@@ -18,7 +18,7 @@
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -26,7 +26,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -35,7 +34,6 @@
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -59,61 +57,69 @@
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" />
+  <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" />
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" />
   <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" />
+  <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" />
   <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" />
+  <project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" />
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
+  <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" />
+  <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" />
+  <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
+  <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
-  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
-  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" />
-  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" />
+  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" />
+  <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" />
+  <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" />
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
-  <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/droiddriver" name="platform/external/droiddriver" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/elfutils" name="platform/external/elfutils" />
-  <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
+  <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
-  <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
-  <project path="external/grub" name="platform/external/grub" />
+  <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" />
+  <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" />
+  <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
-  <project path="external/hyphenation" name="platform/external/hyphenation" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -122,46 +128,49 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
-  <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
   <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
+  <project path="external/libcxx" name="platform/external/libcxx" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" />
   <project path="external/libexif" name="platform/external/libexif" />
-  <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
+  <project path="external/libnl" name="platform/external/libnl" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libppp" name="platform/external/libppp" />
+  <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" />
+  <project path="external/libunwind" name="platform/external/libunwind" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" />
-  <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/ltrace" name="platform/external/ltrace" />
   <project path="external/lzma" name="platform/external/lzma" />
-  <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
+  <project path="external/messageformat" name="platform/external/messageformat" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/mockito" name="platform/external/mockito" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
@@ -171,18 +180,18 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
+  <project path="external/nfacct" name="platform/external/nfacct" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
-  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
-  <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
+  <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
@@ -196,7 +205,6 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
-  <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
@@ -217,8 +225,8 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
+  <project path="external/vixl" name="platform/external/vixl" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
@@ -233,13 +241,14 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
+  <project path="frameworks/multidex" name="platform/frameworks/multidex" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
@@ -275,6 +284,7 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -299,13 +309,13 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -327,39 +337,62 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
+  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
+  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
+  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
+  <project path="prebuilts/clang/darwin-x86/host/3.4" name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" />
+  <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
-  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
+  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" />
+  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="pdk,linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
+  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" groups="pdk,linux,mips" />
+  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="pdk,linux,mips" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
-  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/keymaster" name="platform/system/keymaster" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -388,10 +421,8 @@
  <project name="Pure-Aosp/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="4.4" />
- <project name="Pure-Aosp/android_external_icu4c" path="external/icu4c" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_libcore" path="libcore" remote="github" revision="4.4" />
  <project name="Lloir/vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
- <project name="Pure-Aosp/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="4.4" />
 
 <!-- TWRP -->
 
@@ -399,7 +430,7 @@
 
 <!-- OMNI Repo -->
 
- <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="4.4" />
+ <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="android-5.0" />
  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-4.4" />
 
 </manifest>
