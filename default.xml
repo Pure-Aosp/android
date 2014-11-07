@@ -3,16 +3,17 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <default revision="refs/tags/android-5.0.0_r1"
+  <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
-  <project path="build" name="Pure-Aosp/android_build" remote="github" revision="4.4">
+  <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -418,6 +419,7 @@
  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="5.0" />
  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="5.0" />
  <project name="Lloir/android_kernel_htc_enrc2b-omni" path="kernel/htc/enrc2b" remote="github" revision="android-4.4" />
+ <project name="Pure-Aosp/android_frameworks_av-old" path="frameworks/av" remote="github" revision="5.0" />
  <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="5.0" />
  <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="5.0" />
  <project name="Pure-Aosp/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="5.0" />
@@ -427,13 +429,7 @@
  <project name="Pure-Aosp/android_libcore" path="libcore" remote="github" revision="5.0" />
  <project name="Lloir/vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
 
-<!-- TWRP -->
-
-<project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-4.4" />
-
 <!-- OMNI Repo -->
-
- <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="android-5.0" />
  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-4.4" />
 
 </manifest>
