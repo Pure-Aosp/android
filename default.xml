@@ -399,7 +399,7 @@
 
 <!-- OMNI Repo -->
 
- <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="4.4" />
+ <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="android-4.4" />
  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-4.4" />
 
 </manifest>
