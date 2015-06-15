@@ -380,7 +380,7 @@
  <project name="Pure-Aosp/android_vendor_pap" path="vendor/pap" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="4.4" />
- <project name="Pure-Aosp/android_frameworks_av" path="frameworks/av" remote="github" revision="4.4" />
+ <project name="Pure-Aosp/android_frameworks_av-old" path="frameworks/av" remote="github" revision="4.4" />
  <project name="Lloir/android_kernel_htc_enrc2b-omni" path="kernel/htc/enrc2b" remote="github" revision="android-4.4" />
  <project name="omnirom/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="android-4.4" />
  <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="4.4" />
