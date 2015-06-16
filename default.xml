@@ -437,19 +437,18 @@
       <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 	
 	  <!-- PAP repo's -->
-	  <project name="Pure-Aosp/android_vendor_pap" path="vendor/pap" remote="github" revision="5.0" />
-	  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="5.0" />
-	  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="5.0" />
-	  <project name="Lloir/android_kernel_htc_enrc2b-omni" path="kernel/htc/enrc2b" remote="github" revision="android-4.4" />
-	  <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="android-5.1" />
-	  <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="5.0" />
-	  <project name="omnirom/android_frameworks_native" path="frameworks/native" remote="github" revision="android-5.1" />
-	  <project name="omnirom/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="android-5.1" />
-	  <project name="omnirom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="android-5.1" />
-	  <project name="omnirom/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-5.1" />
-	  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="5.0" />
-	  <project name="omnirom/android_libcore" path="libcore" remote="github" revision="android-5.1" />
-	  <project name="Lloir/vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
+      <project name="Pure-Aosp/android_vendor_pap" path="vendor/pap" remote="github" revision="5.0" />
+      <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="5.0" />
+      <project name="Lloir/android_kernel_htc_enrc2b-omni" path="kernel/htc/enrc2b" remote="github" revision="android-4.4" />
+      <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="android-5.1" />
+      <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="5.0" />
+      <project name="omnirom/android_frameworks_native" path="frameworks/native" remote="github" revision="android-5.1" />
+      <project name="omnirom/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="android-5.1" />
+      <project name="omnirom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="android-5.1" />
+      <project name="omnirom/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-5.1" />
+      <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="5.0" />
+      <project name="omnirom/android_libcore" path="libcore" remote="github" revision="android-5.1" />
+      <project name="Lloir/vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
 
 	  <!-- OMNI Repo -->
 
