@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <default revision="refs/tags/android-5.0.0_r2"
+  <default revision="refs/tags/android-5.1.1_r4"
            remote="aosp"
            sync-j="4" />
            
@@ -26,11 +26,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/qemu" name="device/generic/qemu" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -369,13 +364,6 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs" />
-  <project path="prebuilts/clang/darwin-x86/host/3.4" name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" />
@@ -423,17 +411,17 @@
  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="5.0" />
  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="5.0" />
  <project name="Lloir/android_kernel_htc_enrc2b-omni" path="kernel/htc/enrc2b" remote="github" revision="android-4.4" />
- <project name="Pure-Aosp/android_frameworks_av-old" path="frameworks/av" remote="github" revision="5.0" />
+ <project name="omnirom/android_frameworks_av" path="frameworks/av" remote="github" revision="android-5.1" />
  <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="5.0" />
- <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="5.0" />
- <project name="Pure-Aosp/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="5.0" />
- <project name="Pure-Aosp/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="5.0" />
- <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="5.0" />
+ <project name="omnirom/android_frameworks_native" path="frameworks/native" remote="github" revision="android-5.1" />
+ <project name="omnirom/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="android-5.1" />
+ <project name="omnirom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="android-5.1" />
+ <project name="omnirom/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-5.1" />
  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="5.0" />
- <project name="Pure-Aosp/android_libcore" path="libcore" remote="github" revision="5.0" />
+ <project name="omnirom/android_libcore" path="libcore" remote="github" revision="android-5.1" />
  <project name="Lloir/vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master" />
 
 <!-- OMNI Repo -->
- <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-4.4" />
+ <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-5.1" />
 
 </manifest>
