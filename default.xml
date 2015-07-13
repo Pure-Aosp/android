@@ -453,8 +453,8 @@
  <!-- enrc2b -->
  <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="5.1" />
- <project name="Lloir/proprietary_vendor_htc-1" path="vendor/htc" remote="github" revision="cm-12.1" /> 
- <project name="Lloir/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="cm-5.1" /> 
+ <project name="Pure-Aosp/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="5.1" /> 
+ <project name="Pure-Aosp/android_kernel_htc_enrc2b" path="kernel/htc/enrc2b" remote="github" revision="cm-5.1" /> 
 
 <!-- OMNI Repo -->
  <project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-5.1" />
