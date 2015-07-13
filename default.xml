@@ -461,7 +461,7 @@
  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_frameworks_av" path="frameworks/av" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="5.1" />
- <project name="Pure-Aosp/android_external_skia" path="external_skia" remote="github" revision="5.1" />
+ <project name="Pure-Aosp/android_external_skia" path="external/skia" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="5.1" />
