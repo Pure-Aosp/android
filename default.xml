@@ -389,7 +389,7 @@
  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_external_icu4c" path="external/icu4c" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_libcore" path="libcore" remote="github" revision="4.4" />
- <project name="Pure-Aosp/vendor_htc" path="vendor/htc" remote="github" revision="4.4" />
+ <project name="Pure-Aosp/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="4.4" />
  <project name="Pure-Aosp/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="4.4" />
 
 <!-- OMNI Repo -->
