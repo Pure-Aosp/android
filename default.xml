@@ -15,7 +15,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -442,15 +441,14 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
 <!-- PAP repo's -->
+ <project name="Pure-Aosp/android_bionic" path="bionic" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_frameworks_av" path="frameworks/av" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_frameworks_base" path="frameworks/base" remote="github" revision="5.1" />
- <project name="Pure-Aosp/android_external_skia" path="external/skia" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_frameworks_native" path="frameworks/native" remote="github" revision="5.1" />
+ <project name="Pure-Aosp/android_external_skia" path="external/skia" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_system_core" path="system/core" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="5.1" />
- 
- <!-- enrc2b -->
  <project name="Pure-Aosp/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="5.1" />
  <project name="Pure-Aosp/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="5.1" />
  <project name="Pure-Aosp/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="5.1" /> 
